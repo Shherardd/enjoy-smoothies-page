@@ -1,0 +1,13 @@
+.header__links {
+    display: flex;
+}
+
+.header__links li {
+    margin: 0 20px;
+}
+
+.header__links a {
+    text-decoration: none;
+    color: white;
+}
+
