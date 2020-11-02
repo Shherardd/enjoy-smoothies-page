@@ -140,7 +140,70 @@ header .header__menu-icon {
     color: white;
 }
 
-.header__search-container article {
+/* Header principal cards*/
+
+.header__principal-container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    margin-top: 50px;
+}
+.header__principal-container article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 90%;
-    margin: 0 auto;
+    height: 150px;
+    padding: 0px 10px;
+    margin: 15px auto;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 15px;
+}
+
+.cucumber {background-color: rgba(111, 149, 81, .5);}
+.pineapple {background-color: rgba(228, 170, 20, .5);}
+.blueberry {background-color: rgba(106, 86, 125, .5);}
+
+.principal-container--row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+
+
+.header__principal-container h3 {
+    font-size: 2rem;
+    color: white;
+}
+
+.principal-container--discount {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cucumber-discount { background-color: var(--cucumber); }
+.pineapple-discount { background-color: var(--pineapple); }
+.blueberry-discount { background-color: var(--purple); }
+
+.principal-container--calories {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: white;
+    margin: 0;
+}
+
+.principal-container--price {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+    margin: 0 10px;
 }
