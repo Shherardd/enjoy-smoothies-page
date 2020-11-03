@@ -38,7 +38,17 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
+    box-shadow: 0 1px 8px inset rgba(0, 0, 0, .16);
 
+
+}
+/* Esta clase tiene un typo a proposito*/
+.header__contaidner {
+    background-image: url('./assets/images/smoothies-low.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header .header__menu{
@@ -230,7 +240,8 @@ header .header__menu{
 
 main {
     min-width: 320px;
-    height: 50vh;
+    height: auto;
+    
 }
 
 .main__menu {
@@ -290,6 +301,8 @@ main {
 }
 
 /* Main content */
+
+
 
 .main__content {
     width: 90%;
@@ -370,4 +383,10 @@ main {
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
+}
+
+footer section{
+    height: 500px;
+    width: 100%;
+    box-shadow: 0 1px 8px  rgba(0, 0, 0, .16);
 }

@@ -9,3 +9,10 @@
     margin: 10px;
     max-width: 400px;
 }
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
