@@ -1,0 +1,133 @@
+.header__links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header__links ul {
+    list-style: none;
+}
+
+.header__links li {
+    margin: 0 20px;
+    display: inline-block;
+
+}
+
+.header__links a {
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: white;
+}
+
+.header__menu {    
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu-icon {
+    display: block;
+    position: relative;
+    margin-left: 5%;
+}
+
+.header__container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.search__container--top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+
+.search__container--bottom {
+    display: flex;
+    justify-items: end;
+}
+
+.search__title {
+    margin: 0;
+}
+
+.header__search-container {
+    display: flex;
+    max-width: 500px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.header__principal-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__principal-container article{
+    min-width: 200px;
+    max-width: 250px;
+    display: flex;
+    width: 90%;
+    height: 150px;    
+    margin: 15px;
+    padding: 0px 10px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 15px;
+}
+
+.main__menu {
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main__menu-filter {
+    
+    margin-left: 10%;
+}
+
+.main__content {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin: 30px auto;
+    overflow-x: hidden;
+}
+
+.content-product__top-section{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.content-product__bottom-section{
+    display: flex;
+    width: auto;
+    justify-content: center; 
+}
+.product-card{
+    height: auto;
+    max-width: 300px;
+    min-width: 290px;
+    margin: 20px 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.main__content-product {
+    margin: 0 auto;    
+    flex-direction: column;  
+}
+
+.content-product__top-section{
+    margin: 0 auto;
+}
+
+.main__content-product img {
+    width: 100%;
+    height: 250px;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 20px;    
+}
