@@ -10,76 +10,211 @@
 </head>
 <body>
     <header>
-        <section class="header__menu">
-            <div class="header__menu-icon"></div>
-            <div class="header__links">
+        <div class="header__container">
+            <section class="header__menu">
+                <div class="header__menu-icon"></div>
+                <div class="header__links">
+                    <ul>
+                        <li><a href="#">Smoothies</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="search-container">
+                <div class="search__container--top">
+                    <div class="header__search-container">
+                        <div class="search__title">
+                            <h1>Enjoy!</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere accusantium placeat nam recusandae dignissimos. Sint eius cupiditate deserunt.</p>
+                        </div>
+                        <div class="search__bar">
+                            <input type="text" placeholder="Search your drink" alt="Search drink">
+                            <button name="buscar"><a href="#popular-drinks"><p class="search-icon"></p></a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="search__container--bottom">
+                    <div class="header__principal-container">
+                        <article class="cucumber">
+                            <div class="principal-container--row">
+                                <h3>Blueberry <br> Special</h3>
+                                <div class="principal-container--discount cucumber-discount">
+                                    <p>20%</p>
+                                </div>
+                            </div>
+                            <div class="principal-container--row">
+                                <p class="principal-container--calories">Calories: 20kcal
+                                    <br> Size: 10 oz
+                                 </p>
+                                 <p class="principal-container--price">$12</p>
+                            </div>
+                        </article>
+                        <article class="pineapple">
+                            <div class="principal-container--row">
+                                <h3>Blueberry <br> Special</h3>
+                                <div class="principal-container--discount pineapple-discount">
+                                    <p>20%</p>
+                                </div>
+                            </div>
+                            <div class="principal-container--row">
+                                <p class="principal-container--calories">Calories: 20kcal
+                                    <br> Size: 10 oz
+                                 </p>
+                                 <p class="principal-container--price">$12</p>
+                            </div>
+                        </article>
+                        <article class="blueberry">
+                            <div class="principal-container--row">
+                                <h3>Blueberry <br> Special</h3>
+                                <div class="principal-container--discount blueberry-discount">
+                                    <p>20%</p>
+                                </div>
+                            </div>
+                            <div class="principal-container--row">
+                                <p class="principal-container--calories">Calories: 20kcal
+                                    <br> Size: 10 oz
+                                 </p>
+                                 <p class="principal-container--price">$12</p>
+                            </div>
+                        </article>                
+                    </div>  
+                </div>          
+            </section>   
+    
+        </div>
+        <div class="header__divider"></div>
+    </header>
+    <main>
+        <section class="main__menu">
+            <div class="main__menu-list">
                 <ul>
-                    <li><a href="#">Smoothies</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="">All</a></li>
+                    <li class=""><a href="" class="selected">Popular Drinks</a></li>
+                    <li><a href="">Natural Smoothie</a></li>
+                    <li><a href="">Juices</a></li>
+                    <li><a href="">Yogurt</a></li>
                 </ul>
             </div>
+            <div class="main__menu-filter">
+                <p>Filter</p> 
+            </div>
         </section>
-        <section >
-            <div class="header__search-container">
-                <div class="search__title">
-                    <h1>Enjoy!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere accusantium placeat nam recusandae dignissimos. Sint eius cupiditate deserunt.</p>
+        <section class="main__content">
+            <h2 id="popular-drinks">Popular Drinks</h2>
+            <div class="main__content-product">
+                <div class="content-product__top-section">
+                    <article class="product-card">
+                        <img src="./assets/images/strawberry.jpg" alt="">
+                        <div class="content__product-body">
+                            <h3>Strawberry and blue</h3>
+                            <p class="product-body--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-body--bottom">
+                                <p class="product-body--price">$15.00 us</p>
+                                <div class="product-body--icon">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="./assets/images/strawberry.jpg" alt="">
+                        <div class="content__product-body">
+                            <h3>Strawberry and blue</h3>
+                            <p class="product-body--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-body--bottom">
+                                <p class="product-body--price">$15.00 us</p>
+                                <div class="product-body--icon">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="./assets/images/strawberry.jpg" alt="">
+                        <div class="content__product-body">
+                            <h3>Strawberry and blue</h3>
+                            <p class="product-body--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-body--bottom">
+                                <p class="product-body--price">$15.00 us</p>
+                                <div class="product-body--icon">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="./assets/images/strawberry.jpg" alt="">
+                        <div class="content__product-body">
+                            <h3>Strawberry and blue</h3>
+                            <p class="product-body--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-body--bottom">
+                                <p class="product-body--price">$15.00 us</p>
+                                <button class="product-body--icon">
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-                <div class="search__bar">
-                    <input type="text" placeholder="Search your drink" alt="Search drink">
-                    <button name="buscar"><p class="search-icon"></p></button>
+                <div class="content-product__bottom-section">
+                    <article class="product-card">
+                        <img src="./assets/images/mango.jpg" alt="">
+                        <div class="content__product-body">
+                            <h3>Strawberry and blue</h3>
+                            <p class="product-body--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-body--bottom">
+                                <p class="product-body--price">$15.00 us</p>
+                                <div class="product-body--icon">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="./assets/images/mango.jpg" alt="">
+                        <div class="content__product-body">
+                            <h3>Strawberry and blue</h3>
+                            <p class="product-body--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-body--bottom">
+                                <p class="product-body--price">$15.00 us</p>
+                                <div class="product-body--icon">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="./assets/images/mango.jpg" alt="">
+                        <div class="content__product-body">
+                            <h3>Strawberry and blue</h3>
+                            <p class="product-body--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-body--bottom">
+                                <p class="product-body--price">$15.00 us</p>
+                                <div class="product-body--icon">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="./assets/images/mango.jpg" alt="">
+                        <div class="content__product-body">
+                            <h3>Strawberry and blue</h3>
+                            <p class="product-body--description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="product-body--bottom">
+                                <p class="product-body--price">$15.00 us</p>
+                                <button class="product-body--icon">
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </div>
-            <div class="header__principal-container">
-                <article class="cucumber">
-                    <div class="principal-container--row">
-                        <h3>Blueberry <br> Special</h3>
-                        <div class="principal-container--discount cucumber-discount">
-                            <p>20%</p>
-                        </div>
-                    </div>
-                    <div class="principal-container--row">
-                        <p class="principal-container--calories">Calories: 20kcal
-                            <br> Size: 10 oz
-                         </p>
-                         <p class="principal-container--price">$12</p>
-                    </div>
-                </article>
-                <article class="pineapple">
-                    <div class="principal-container--row">
-                        <h3>Blueberry <br> Special</h3>
-                        <div class="principal-container--discount pineapple-discount">
-                            <p>20%</p>
-                        </div>
-                    </div>
-                    <div class="principal-container--row">
-                        <p class="principal-container--calories">Calories: 20kcal
-                            <br> Size: 10 oz
-                         </p>
-                         <p class="principal-container--price">$12</p>
-                    </div>
-                </article>
-                <article class="blueberry">
-                    <div class="principal-container--row">
-                        <h3>Blueberry <br> Special</h3>
-                        <div class="principal-container--discount blueberry-discount">
-                            <p>20%</p>
-                        </div>
-                    </div>
-                    <div class="principal-container--row">
-                        <p class="principal-container--calories">Calories: 20kcal
-                            <br> Size: 10 oz
-                         </p>
-                         <p class="principal-container--price">$12</p>
-                    </div>
-                </article>
-            </div>
 
-        </section>       
-
-    </header>
-    <main></main>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
